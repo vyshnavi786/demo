@@ -1,0 +1,60 @@
+course=["java","python","data analytics","flutter","data science","deep learning","dart"]
+fees=[3500,10000,55000,25000,46500,76000]
+course[6]="nlp"
+print(course)
+course.append("dart")
+print(course)
+course.insert(1,"web development")
+print(course)
+course.extend(fees)
+print(course)
+course.remove("nlp")
+print(course)
+course.pop(1)
+print(course)
+course.pop()
+print(course)
+del course[6]
+print(course)
+fees.sort()
+print(fees)
+fees.sort(reverse=True)
+print(fees)
+j=course.copy()
+print(j)
+k=list(course)
+print(k)
+g=course+fees
+print(g)
+print(course.count("data science"))
+g.clear()
+print(g)
+del g
+#practice
+country=["italy","india","germany","france"]
+course[4]="mern"
+print(course)
+course.append("data science")
+print(course)
+course.insert(7,"ai")
+print(course)
+course.extend(country)
+print(course)
+course.remove("france")
+print(course)
+course.pop(3)
+print(course)
+del course[8]
+print(course)
+country.sort()
+print(country)
+country.sort(reverse=True)
+print(country)
+h=country.copy()
+print(country)
+w=list(country)
+print(country)
+print(course.count("mern"))
+country.clear()
+print(country)
+del country
