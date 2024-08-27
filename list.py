@@ -50,5 +50,34 @@ print(x.count("java"))
 z.clear()
 print(z)
 del z
-
-
+#practice
+name=["ram","alan","riye","olive","sam","alexa","yun"]
+place=["india","russia","china","korea","africa","thailand"]
+place[2]="usa"
+print(place)
+name.append("dayn")
+print(name)
+name.insert(4,"siya")
+print(name)
+name.extend(place)
+print(name)
+name.remove("yun")
+print(name)
+name.pop(9)
+print(name)
+name.pop()
+print(name)
+del name[8]
+print(name)
+name.sort()
+print(name)
+name.sort(reverse=True)
+print(name)
+n=name.copy()
+print(n)
+m=list(name)
+print(m)
+print(name.count("ram"))
+m.clear()
+print(m)
+del m
