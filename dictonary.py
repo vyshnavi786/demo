@@ -44,7 +44,9 @@ family={"child1":{"name":"alex","age":23},"child2":{"name":"sam","age":27},"chil
 print(family)
 print(family["child2"])
 print(family["child2"]["age"])
-print(family["child3"]["name"])
+print(family["child3"]["name"])33
+
+
 
        
 

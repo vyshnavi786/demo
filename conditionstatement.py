@@ -25,9 +25,5 @@ elif e>d and e>f:
     print("e is largest")
 else:
     print(" f is largest") 
-t=int(input("enter the number"))
-if 
-    print("number is even")
-else:
-    print("number is odd")           
+t=int(input("enter the number")          
 
