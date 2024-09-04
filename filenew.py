@@ -1,0 +1,10 @@
+# a= open("newfile1.txt", "x")
+# b = open("newfile2.txt", "x")
+q = open("newfile1.txt", "w")
+q.write("welcome to futura labs")
+q.close()
+x=open("newfile1.txt","r")
+y=x.read()
+z=open("newfile2.txt","w")
+z.write(y)
+ 

@@ -17,7 +17,39 @@ def prime(n):
             return
         print(f"{n} is prime number.")  
 prime(4)
-
+#fibanocci
+def sequence(n):
+    return [f(i) for i in range (n)]
+def f(n):
+    if n<=1:
+        return n
+    else:
+        return f(n-1)+f(n-2)
+n=int(input("enter the number :"))
+result=sequence(n)
+print(result)
+#palindrome or not
+def palindrome(s):
+    s=s.replace(" ","").lower()
+    return s==s[::-1]
+string=input("enter string:")
+if palindrome(string):
+    print(f'"{string}" is palindrome')
+else:
+    print(f'"{string}" is not palindrome')
+#factorial
+def factorial(n):
+    if n ==0:
+        return 1
+    else:
+        return n*factorial(n-1)
+number=int(input("enter a number :"))
+print(f"factorial of a {number} is {factorial(number)}")
+#square of list
+numb=[2,3,6,8]
+square=list(map(lambda x:x**2,numb))
+print(square)
+#multiplication
 num=int(input("enter number"))
 for i in range(1,11):
     m=i*num
